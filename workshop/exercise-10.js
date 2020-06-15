@@ -7,3 +7,11 @@
 // #####
 // ######
 // #######
+
+for (let num=0; num<7; num++){
+    let sum = '#';
+    for (let num1=1; num1< num; num1++){
+        sum += '#';
+    }
+    console.log(sum);
+}
