@@ -3,6 +3,10 @@
 
 // It is supposed to print to the console the numbers 1, 2, 3, 4, 5.
 
-for (let number = 1; number < 6; number++) {
-  console.log(number);
+// for (let number = 1; number < 6; number++) {
+//   console.log(number);
+// }
+
+for (let i = 1; i <= 6; i++) {
+  console.log(i);
 }

@@ -11,12 +11,23 @@
 // It's 12h. Time to train!
 // It's 13h. Time to eat!
 
-for (let num=0; num<= 23; num ++){
-    let life = 'train'; 
-    if(num<=5 || num >= 22){
-        life = 'sleep';
-    } if( num === 7 || num === 13 || num === 18){
-        life = 'eat';
-    }
-    console.log("It's"+" "+`${num}`+"h."+" "+"Time to" +" "+ `${life}`);
+// for (let num=0; num<= 23; num ++){
+//     let life = 'train';
+//     if(num<=5 || num >= 22){
+//         life = 'sleep';
+//     } if( num === 7 || num === 13 || num === 18){
+//         life = 'eat';
+//     }
+//     console.log("It's"+" "+`${num}`+"h."+" "+"Time to" +" "+ `${life}`);
+// }
+
+for (i = 0; i < 24; i++) {
+  let life = "train";
+  if (i <= 5 || i >= 22) {
+    life = "sleep";
+  }
+  if (i == 7 || i === 13 || i === 18) {
+    life = "eat";
+  }
+  console.log("Its" + " " + `${i}` + " " + "Its time to" + " " + `${life}`);
 }
